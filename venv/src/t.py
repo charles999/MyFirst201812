@@ -13,7 +13,7 @@ def numberfind(numbers, target):
     i = len(numbers)
     for x in (0,i - 1):
         for y in (0,i-1):
-            if x != y :
+            if x != y:
                 count = numbers[x] + numbers[y]
                 if(count == target):
                     return [x,y]
